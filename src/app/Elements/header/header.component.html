@@ -1,0 +1,13 @@
+<header class="site-header">
+    <div class="site-identity">
+        <a href="#"><img src="https://via.placeholder.com/200" alt="title" /></a>
+        <h1><a href="#">Angular Training</a></h1>
+    </div>
+    <div class="language-section">
+        <label for="languageSelect">Langue:</label>
+        <select id="languageSelect" [(ngModel)]="selectedLanguage" (change)="changeLanguage()">
+            <option value="en">EN</option>
+          <option value="fr">FR</option>
+        </select>
+      </div>
+</header>
